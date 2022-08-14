@@ -1,7 +1,5 @@
 # duplicacy-gui-systemd
-.service file for starting duplicacy-GUI
-
-Allows systemd to start the duplicacy Web UI automatically.
+.service file for starting duplicacy Web GUI automatically.
 
 Edit ExecStart= to point to the executable you've downloaded from the duplicacy website. It can be an absolute path or a location that exists in PATH. On my system this executes /usr/local/bin/dwe_main.
 
