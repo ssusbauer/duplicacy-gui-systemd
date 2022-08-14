@@ -1,0 +1,13 @@
+[Unit]
+Description=Duplicacy Web UI Service
+After=network.target
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=60
+ExecStart=dwe_main -background
+
+[Install]
+WantedBy=default.target
+
